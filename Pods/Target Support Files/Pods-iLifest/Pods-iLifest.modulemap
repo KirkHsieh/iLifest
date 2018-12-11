@@ -1,0 +1,6 @@
+framework module Pods_iLifest {
+  umbrella header "Pods-iLifest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B01E5BB21AF7A960083C532 /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B01E5BA21AF7A960083C532 /* KitchenViewController.swift */; };
+		3B01E5BD21AF7AD50083C532 /* BedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B01E5BC21AF7AD50083C532 /* BedroomViewController.swift */; };
+		3B01E5BF21AF7AEC0083C532 /* BathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B01E5BE21AF7AEC0083C532 /* BathroomViewController.swift */; };
+		3B070E952193942C00E6510A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B070E942193942C00E6510A /* AppDelegate.swift */; };
+		3B070E972193942C00E6510A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B070E962193942C00E6510A /* ViewController.swift */; };
+		3B070E9A2193942C00E6510A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B070E982193942C00E6510A /* Main.storyboard */; };
+		3B070E9D2193942D00E6510A /* iLifest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B070E9B2193942D00E6510A /* iLifest.xcdatamodeld */; };
+		3B070E9F2193942F00E6510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B070E9E2193942F00E6510A /* Assets.xcassets */; };
+		3B070EA22193942F00E6510A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B070EA02193942F00E6510A /* LaunchScreen.storyboard */; };
+		3B8EF2AB21B74F6B0064119B /* ConnectAdafruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EF2AA21B74F6B0064119B /* ConnectAdafruit.swift */; };
+		3B8EF2AD21B7520A0064119B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8EF2AC21B7520A0064119B /* Model.swift */; };
+		3BE35A7E21A281C8006497E6 /* LivingRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE35A7D21A281C8006497E6 /* LivingRoomViewController.swift */; };
+		3BE35A8021A281DE006497E6 /* DiningRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE35A7F21A281DE006497E6 /* DiningRoomViewController.swift */; };
+		3BF7567A21C041DC006FAF82 /* AllRegionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7567921C041DC006FAF82 /* AllRegionCollectionViewCell.swift */; };
+		C4B50C28C41395F6FC85EE05 /* Pods_iLifest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20C98000B7E141ECB3B6929 /* Pods_iLifest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B01E5BA21AF7A960083C532 /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
+		3B01E5BC21AF7AD50083C532 /* BedroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomViewController.swift; sourceTree = "<group>"; };
+		3B01E5BE21AF7AEC0083C532 /* BathroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomViewController.swift; sourceTree = "<group>"; };
+		3B070E942193942C00E6510A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B070E962193942C00E6510A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B070E992193942C00E6510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B070E9C2193942D00E6510A /* iLifest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLifest.xcdatamodel; sourceTree = "<group>"; };
+		3B070E9E2193942F00E6510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B070EA12193942F00E6510A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B070EA32193942F00E6510A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B478E8D21BFC65E00FFBC43 /* iLifest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLifest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8EF2AA21B74F6B0064119B /* ConnectAdafruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAdafruit.swift; sourceTree = "<group>"; };
+		3B8EF2AC21B7520A0064119B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3BE35A7D21A281C8006497E6 /* LivingRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomViewController.swift; sourceTree = "<group>"; };
+		3BE35A7F21A281DE006497E6 /* DiningRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningRoomViewController.swift; sourceTree = "<group>"; };
+		3BF7567921C041DC006FAF82 /* AllRegionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRegionCollectionViewCell.swift; sourceTree = "<group>"; };
+		68A4E662FDB4A27BB968D7AC /* Pods-iLifest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLifest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLifest/Pods-iLifest.debug.xcconfig"; sourceTree = "<group>"; };
+		A20C98000B7E141ECB3B6929 /* Pods_iLifest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLifest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DD41CE7B08C92B8293ABAA /* Pods-iLifest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLifest.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLifest/Pods-iLifest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B070E8E2193942C00E6510A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B50C28C41395F6FC85EE05 /* Pods_iLifest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187BC0B6BFB66C547A0168D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68A4E662FDB4A27BB968D7AC /* Pods-iLifest.debug.xcconfig */,
+				F7DD41CE7B08C92B8293ABAA /* Pods-iLifest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B070E882193942C00E6510A = {
+			isa = PBXGroup;
+			children = (
+				3B070E932193942C00E6510A /* iLifest */,
+				3B478E8D21BFC65E00FFBC43 /* iLifest.app */,
+				187BC0B6BFB66C547A0168D8 /* Pods */,
+				70A7EAE55AE93EE99B67E131 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B070E932193942C00E6510A /* iLifest */ = {
+			isa = PBXGroup;
+			children = (
+				3B070E942193942C00E6510A /* AppDelegate.swift */,
+				3B070E962193942C00E6510A /* ViewController.swift */,
+				3B070E982193942C00E6510A /* Main.storyboard */,
+				3B070E9E2193942F00E6510A /* Assets.xcassets */,
+				3B070EA02193942F00E6510A /* LaunchScreen.storyboard */,
+				3B070EA32193942F00E6510A /* Info.plist */,
+				3B070E9B2193942D00E6510A /* iLifest.xcdatamodeld */,
+				3BE35A7D21A281C8006497E6 /* LivingRoomViewController.swift */,
+				3BE35A7F21A281DE006497E6 /* DiningRoomViewController.swift */,
+				3B01E5BA21AF7A960083C532 /* KitchenViewController.swift */,
+				3B01E5BC21AF7AD50083C532 /* BedroomViewController.swift */,
+				3B01E5BE21AF7AEC0083C532 /* BathroomViewController.swift */,
+				3B8EF2AA21B74F6B0064119B /* ConnectAdafruit.swift */,
+				3B8EF2AC21B7520A0064119B /* Model.swift */,
+				3BF7567921C041DC006FAF82 /* AllRegionCollectionViewCell.swift */,
+			);
+			path = iLifest;
+			sourceTree = "<group>";
+		};
+		70A7EAE55AE93EE99B67E131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20C98000B7E141ECB3B6929 /* Pods_iLifest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B070E902193942C00E6510A /* iLifest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B070EA62193942F00E6510A /* Build configuration list for PBXNativeTarget "iLifest" */;
+			buildPhases = (
+				40A7D4D86046F41AFEE582CE /* [CP] Check Pods Manifest.lock */,
+				3B070E8D2193942C00E6510A /* Sources */,
+				3B070E8E2193942C00E6510A /* Frameworks */,
+				3B070E8F2193942C00E6510A /* Resources */,
+				59FEE9EDB9244B2963E14C2B /* [CP] Embed Pods Frameworks */,
+				38703A802E36D95A3A339C94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLifest;
+			productName = iLifest;
+			productReference = 3B478E8D21BFC65E00FFBC43 /* iLifest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B070E892193942C00E6510A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = KirkHsieh;
+				TargetAttributes = {
+					3B070E902193942C00E6510A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3B070E8C2193942C00E6510A /* Build configuration list for PBXProject "iLifest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B070E882193942C00E6510A;
+			productRefGroup = 3B070E882193942C00E6510A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B070E902193942C00E6510A /* iLifest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B070E8F2193942C00E6510A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B070EA22193942F00E6510A /* LaunchScreen.storyboard in Resources */,
+				3B070E9F2193942F00E6510A /* Assets.xcassets in Resources */,
+				3B070E9A2193942C00E6510A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38703A802E36D95A3A339C94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLifest/Pods-iLifest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A7D4D86046F41AFEE582CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLifest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FEE9EDB9244B2963E14C2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLifest/Pods-iLifest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B070E8D2193942C00E6510A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE35A8021A281DE006497E6 /* DiningRoomViewController.swift in Sources */,
+				3B070E972193942C00E6510A /* ViewController.swift in Sources */,
+				3B01E5BF21AF7AEC0083C532 /* BathroomViewController.swift in Sources */,
+				3B070E9D2193942D00E6510A /* iLifest.xcdatamodeld in Sources */,
+				3B01E5BB21AF7A960083C532 /* KitchenViewController.swift in Sources */,
+				3B8EF2AD21B7520A0064119B /* Model.swift in Sources */,
+				3B070E952193942C00E6510A /* AppDelegate.swift in Sources */,
+				3BE35A7E21A281C8006497E6 /* LivingRoomViewController.swift in Sources */,
+				3B01E5BD21AF7AD50083C532 /* BedroomViewController.swift in Sources */,
+				3BF7567A21C041DC006FAF82 /* AllRegionCollectionViewCell.swift in Sources */,
+				3B8EF2AB21B74F6B0064119B /* ConnectAdafruit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B070E982193942C00E6510A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B070E992193942C00E6510A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B070EA02193942F00E6510A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B070EA12193942F00E6510A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B070EA42193942F00E6510A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B070EA52193942F00E6510A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B070EA72193942F00E6510A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A4E662FDB4A27BB968D7AC /* Pods-iLifest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEHW4DG627;
+				INFOPLIST_FILE = iLifest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KirkHsieh.iLifest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B070EA82193942F00E6510A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DD41CE7B08C92B8293ABAA /* Pods-iLifest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEHW4DG627;
+				INFOPLIST_FILE = iLifest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KirkHsieh.iLifest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B070E8C2193942C00E6510A /* Build configuration list for PBXProject "iLifest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B070EA42193942F00E6510A /* Debug */,
+				3B070EA52193942F00E6510A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B070EA62193942F00E6510A /* Build configuration list for PBXNativeTarget "iLifest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B070EA72193942F00E6510A /* Debug */,
+				3B070EA82193942F00E6510A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B070E9B2193942D00E6510A /* iLifest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B070E9C2193942D00E6510A /* iLifest.xcdatamodel */,
+			);
+			currentVersion = 3B070E9C2193942D00E6510A /* iLifest.xcdatamodel */;
+			path = iLifest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B070E892193942C00E6510A /* Project object */;
+}
