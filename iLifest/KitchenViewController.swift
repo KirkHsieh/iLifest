@@ -46,8 +46,9 @@ class KitchenViewController: UIViewController {
         lightView.backgroundColor = #colorLiteral(red: 0.6375312209, green: 0.9960485101, blue: 0.8683366179, alpha: 1)
         refrigeratorView.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
         // Do any additional setup after loading the view.
+        status = "light"
         let setChangeToLight = UITapGestureRecognizer(target: self, action: #selector(changeToLight));
-        let setChangeToRefrigerator = UITapGestureRecognizer(target: self, action: #selector(changeToAirConditioner));
+        let setChangeToRefrigerator = UITapGestureRecognizer(target: self, action: #selector(changeToRefrigerator));
         self.lightView.addGestureRecognizer(setChangeToLight)
         self.refrigeratorView.addGestureRecognizer(setChangeToRefrigerator)
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
@@ -75,7 +76,7 @@ class KitchenViewController: UIViewController {
     }
     
     @IBAction func controlOnOff(_ sender: UISwitch) {
-        switch status{
+        switch status {
             case "light":
                 if sender.isOn == true {    // 判斷使用者選擇是開還是關
                     connectAdafruit.updatedFeedsData(location: "kitchen_light", feeds_key: "kitchenonoff", value: "ON")
@@ -96,7 +97,7 @@ class KitchenViewController: UIViewController {
             default:
                 print("switch_error")
                 break
-            }
+        }
     }
     
 
@@ -122,8 +123,8 @@ class KitchenViewController: UIViewController {
         }
         connectAdafruit.getFeedsData(location: "kitchen_light", feeds_key: "kitchenonoff")//更改後要把目前adafruit的狀態顯示在Switch上
     }
-    @objc func changeToAirConditioner(sender:UITapGestureRecognizer) {
-        status = "airconditioner"
+    @objc func changeToRefrigerator(sender:UITapGestureRecognizer) {
+        status = "refrigerator"
         controlLabel?.text = "冰箱狀態"
         connectAdafruit.getFeedsData(location: "kitchen_refrigerator", feeds_key: "socketonoff")
         if refrigeratorFeedsData?.value == "ON" {

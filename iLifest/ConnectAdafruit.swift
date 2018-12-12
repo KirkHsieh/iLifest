@@ -83,11 +83,6 @@ class ConnectAdafruit {
         let request = NSMutableURLRequest(url: NSURL(string : serviceUrl)! as URL)
         request.httpMethod = "GET"
         
-//        //add request
-//        let postParameters = "value=\(value)"
-//        request.httpBody = postParameters.data(using: String.Encoding.utf8)
-        
-        //send request
         let task = URLSession.shared.dataTask(with: request as URLRequest) {
             data, response, error in
             if error != nil{

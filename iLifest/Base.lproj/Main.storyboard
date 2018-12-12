@@ -1414,11 +1414,11 @@
         <image name="飯廳" width="375" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X6z-58-kkI"/>
-        <segue reference="kZM-aW-6Uv"/>
+        <segue reference="UrI-Oj-Xh0"/>
+        <segue reference="TQA-dj-ZJY"/>
         <segue reference="d76-fg-DTC"/>
-        <segue reference="xSh-8g-cvq"/>
-        <segue reference="UHn-1O-yOB"/>
-        <segue reference="1ai-eI-UQQ"/>
+        <segue reference="ywd-bR-9Be"/>
+        <segue reference="br1-8L-Fv0"/>
+        <segue reference="PEm-sL-cw6"/>
     </inferredMetricsTieBreakers>
 </document>

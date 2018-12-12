@@ -394,6 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UEHW4DG627;
 				INFOPLIST_FILE = iLifest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KirkHsieh.iLifest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +414,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UEHW4DG627;
 				INFOPLIST_FILE = iLifest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KirkHsieh.iLifest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
