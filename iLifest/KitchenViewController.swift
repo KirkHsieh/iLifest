@@ -34,8 +34,8 @@ class KitchenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        regionNameLabel?.text = "Kitchen"
-        regionLabel?.text = "飯廳<--                       廚房                       -->臥室"
+        regionNameLabel?.text = "廚房"
+        regionLabel?.text = "Kitchen"
         regionChangeView.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
         controlLabel.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         controlLabel.layer.borderWidth = 3
@@ -47,8 +47,8 @@ class KitchenViewController: UIViewController {
         refrigeratorView.backgroundColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
         // Do any additional setup after loading the view.
         status = "light"
-        let setChangeToLight = UITapGestureRecognizer(target: self, action: #selector(changeToLight));
-        let setChangeToRefrigerator = UITapGestureRecognizer(target: self, action: #selector(changeToRefrigerator));
+        let setChangeToLight = UITapGestureRecognizer(target: self, action: #selector(changeToLight))
+        let setChangeToRefrigerator = UITapGestureRecognizer(target: self, action: #selector(changeToRefrigerator))
         self.lightView.addGestureRecognizer(setChangeToLight)
         self.refrigeratorView.addGestureRecognizer(setChangeToRefrigerator)
         let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))

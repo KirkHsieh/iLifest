@@ -34,8 +34,8 @@ class BathroomViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        regionNameLabel?.text = "Bathroom"
-        regionLabel?.text = "臥室<--                       廁所                       -->客廳"
+        regionNameLabel?.text = "廁所"
+        regionLabel?.text = "Restroom"
         regionChangeView.backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
         controlLabel.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         controlLabel.layer.borderWidth = 3

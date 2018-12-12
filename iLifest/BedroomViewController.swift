@@ -34,8 +34,8 @@ class BedroomViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        regionNameLabel?.text = "Bedroom"
-        regionLabel?.text = "廚房<--                       臥室                       -->廁所"
+        regionNameLabel?.text = "臥室"
+        regionLabel?.text = "Bedroom"
         regionChangeView.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         controlLabel.layer.borderColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         controlLabel.layer.borderWidth = 3

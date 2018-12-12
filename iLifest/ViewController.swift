@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    @IBOutlet weak var menuLabel: UILabel!
     let imageList: [UIImage] = [#imageLiteral(resourceName: "客廳"), #imageLiteral(resourceName: "飯廳"), #imageLiteral(resourceName: "廚房"), #imageLiteral(resourceName: "臥室"), #imageLiteral(resourceName: "廁所")]
-    let labelList: [String] = ["  客廳    Livingroom", "  飯廳    Dinningroom", "  廚房   Kitchen", "  臥室   Bedroom", "  廁所   Bathroom"]
+    let labelList: [String] = ["  客廳    Livingroom", "  飯廳    Diningroom", "  廚房   Kitchen", "  臥室   Bedroom", "  廁所   Restroom"]
     let labelBackgroundColor: [CGColor] = [#colorLiteral(red: 1, green: 0.9206290841, blue: 0.5360296369, alpha: 1), #colorLiteral(red: 0.9568627477, green: 0.6588235497, blue: 0.5450980663, alpha: 1), #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1), #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1), #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)]
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
